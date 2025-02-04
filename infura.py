@@ -3,7 +3,7 @@ import websockets
 import json
 
 async def subscribe():
-    uri = "wss://arbitrum-mainnet.infura.io/ws/v3/1707a57cddd6415e8f80ce787b35e05f"  # Replace with your Infura API Key
+    uri = "wss://arbitrum-mainnet.infura.io/ws/v3/xx"  # Replace with your Infura API Key
     
     # Payload to subscribe to new block headers
     subscription_message = {
